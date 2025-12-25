@@ -17,6 +17,7 @@ class MinimalPublisher(Node):
         self.get_logger().info(f'Publishing: "{msg.data}"')
         self.i += 1
 
+
 def main(args=None):
     rclpy.init(args=args)
     node = MinimalPublisher()
