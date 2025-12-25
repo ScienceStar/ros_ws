@@ -1,7 +1,6 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-from demo_action_pkg.action import Fibonacci
 
 class MinimalPublisher(Node):
     def __init__(self):
@@ -16,7 +15,6 @@ class MinimalPublisher(Node):
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing: "{msg.data}"')
         self.i += 1
-
 
 def main(args=None):
     rclpy.init(args=args)

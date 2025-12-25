@@ -1,0 +1,22 @@
+[0.283s] Invoking command in '/root/ros_ws/src/demo_action_pkg': PYTHONPATH=/root/ros_ws/build/demo_action_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_action_pkg build --build-base /root/ros_ws/build/demo_action_pkg/build install --record /root/ros_ws/build/demo_action_pkg/install.log --single-version-externally-managed install_data
+[0.388s] running egg_info
+[0.388s] writing ../../build/demo_action_pkg/demo_action_pkg.egg-info/PKG-INFO
+[0.389s] writing dependency_links to ../../build/demo_action_pkg/demo_action_pkg.egg-info/dependency_links.txt
+[0.389s] writing entry points to ../../build/demo_action_pkg/demo_action_pkg.egg-info/entry_points.txt
+[0.389s] writing requirements to ../../build/demo_action_pkg/demo_action_pkg.egg-info/requires.txt
+[0.390s] writing top-level names to ../../build/demo_action_pkg/demo_action_pkg.egg-info/top_level.txt
+[0.392s] reading manifest file '../../build/demo_action_pkg/demo_action_pkg.egg-info/SOURCES.txt'
+[0.393s] writing manifest file '../../build/demo_action_pkg/demo_action_pkg.egg-info/SOURCES.txt'
+[0.393s] running build
+[0.394s] running build_py
+[0.394s] running install
+[0.395s] running install_lib
+[0.396s] running install_data
+[0.396s] running install_egg_info
+[0.397s] removing '/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.399s] Copying ../../build/demo_action_pkg/demo_action_pkg.egg-info to /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info
+[0.409s] running install_scripts
+[0.422s] Installing listener script to /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg
+[0.423s] Installing talker script to /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg
+[0.425s] writing list of installed files to '/root/ros_ws/build/demo_action_pkg/install.log'
+[0.444s] Invoked command in '/root/ros_ws/src/demo_action_pkg' returned '0': PYTHONPATH=/root/ros_ws/build/demo_action_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_action_pkg build --build-base /root/ros_ws/build/demo_action_pkg/build install --record /root/ros_ws/build/demo_action_pkg/install.log --single-version-externally-managed install_data

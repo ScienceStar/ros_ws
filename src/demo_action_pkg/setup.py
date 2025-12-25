@@ -10,8 +10,11 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+<<<<<<< HEAD
         # 添加 action 文件
         ('share/' + package_name + '/action', ['action/Fibonacci.action'])
+=======
+>>>>>>> c575643 (update:项目更新)
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,10 +27,10 @@ setup(
             'pytest',
         ],
     },
-   entry_points={
-    'console_scripts': [
+    entry_points={
+        'console_scripts': [
         'talker = demo_action_pkg.publisher_node:main',
         'listener = demo_action_pkg.subscriber_node:main',
     ],
-},
+    },
 )
