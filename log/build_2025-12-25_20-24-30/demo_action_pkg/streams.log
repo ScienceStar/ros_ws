@@ -1,0 +1,50 @@
+[0.279s] Invoking command in '/root/ros_ws/build/demo_action_pkg': PYTHONPATH=/root/ros_ws/build/demo_action_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_ws/build/demo_action_pkg/build
+[0.391s] running develop
+[0.440s] Removing /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo-action-pkg.egg-link (link to .)
+[0.458s] Invoked command in '/root/ros_ws/build/demo_action_pkg' returned '0': PYTHONPATH=/root/ros_ws/build/demo_action_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_ws/build/demo_action_pkg/build
+[0.460s] Invoking command in '/root/ros_ws/src/demo_action_pkg': PYTHONPATH=/root/ros_ws/build/demo_action_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_action_pkg build --build-base /root/ros_ws/build/demo_action_pkg/build install --record /root/ros_ws/build/demo_action_pkg/install.log --single-version-externally-managed install_data --force
+[0.566s] running egg_info
+[0.567s] writing ../../build/demo_action_pkg/demo_action_pkg.egg-info/PKG-INFO
+[0.567s] writing dependency_links to ../../build/demo_action_pkg/demo_action_pkg.egg-info/dependency_links.txt
+[0.567s] writing entry points to ../../build/demo_action_pkg/demo_action_pkg.egg-info/entry_points.txt
+[0.568s] writing requirements to ../../build/demo_action_pkg/demo_action_pkg.egg-info/requires.txt
+[0.568s] writing top-level names to ../../build/demo_action_pkg/demo_action_pkg.egg-info/top_level.txt
+[0.570s] reading manifest file '../../build/demo_action_pkg/demo_action_pkg.egg-info/SOURCES.txt'
+[0.571s] writing manifest file '../../build/demo_action_pkg/demo_action_pkg.egg-info/SOURCES.txt'
+[0.572s] running build
+[0.572s] running build_py
+[0.573s] creating /root/ros_ws/build/demo_action_pkg/build
+[0.573s] creating /root/ros_ws/build/demo_action_pkg/build/lib
+[0.573s] creating /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg
+[0.574s] copying demo_action_pkg/fibonacci_client.py -> /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg
+[0.574s] copying demo_action_pkg/subscriber_node.py -> /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg
+[0.574s] copying demo_action_pkg/__init__.py -> /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg
+[0.575s] copying demo_action_pkg/fibonacci_server.py -> /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg
+[0.576s] copying demo_action_pkg/publisher_node.py -> /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg
+[0.577s] running install
+[0.577s] running install_lib
+[0.578s] creating /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg
+[0.579s] copying /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg/fibonacci_client.py -> /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg
+[0.579s] copying /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg/subscriber_node.py -> /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg
+[0.580s] copying /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg/__init__.py -> /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg
+[0.580s] copying /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg/fibonacci_server.py -> /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg
+[0.581s] copying /root/ros_ws/build/demo_action_pkg/build/lib/demo_action_pkg/publisher_node.py -> /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg
+[0.583s] byte-compiling /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/fibonacci_client.py to fibonacci_client.cpython-310.pyc
+[0.584s] byte-compiling /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/subscriber_node.py to subscriber_node.cpython-310.pyc
+[0.585s] byte-compiling /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/__init__.py to __init__.cpython-310.pyc
+[0.586s] byte-compiling /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/fibonacci_server.py to fibonacci_server.cpython-310.pyc
+[0.587s] byte-compiling /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/publisher_node.py to publisher_node.cpython-310.pyc
+[0.588s] running install_data
+[0.588s] copying resource/demo_action_pkg -> /root/ros_ws/install/demo_action_pkg/share/ament_index/resource_index/packages
+[0.589s] copying package.xml -> /root/ros_ws/install/demo_action_pkg/share/demo_action_pkg
+[0.590s] creating /root/ros_ws/install/demo_action_pkg/share/demo_action_pkg/action
+[0.590s] copying action/Fibonacci.action -> /root/ros_ws/install/demo_action_pkg/share/demo_action_pkg/action
+[0.591s] running install_egg_info
+[0.593s] Copying ../../build/demo_action_pkg/demo_action_pkg.egg-info to /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info
+[0.598s] running install_scripts
+[0.611s] Installing fibonacci_client script to /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg
+[0.611s] Installing fibonacci_server script to /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg
+[0.612s] Installing listener script to /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg
+[0.613s] Installing talker script to /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg
+[0.614s] writing list of installed files to '/root/ros_ws/build/demo_action_pkg/install.log'
+[0.630s] Invoked command in '/root/ros_ws/src/demo_action_pkg' returned '0': PYTHONPATH=/root/ros_ws/build/demo_action_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_action_pkg build --build-base /root/ros_ws/build/demo_action_pkg/build install --record /root/ros_ws/build/demo_action_pkg/install.log --single-version-externally-managed install_data --force

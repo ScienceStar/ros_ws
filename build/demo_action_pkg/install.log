@@ -1,15 +1,16 @@
+/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/fibonacci_client.py
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/subscriber_node.py
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/__init__.py
+/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/fibonacci_server.py
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/publisher_node.py
+/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/__pycache__/fibonacci_client.cpython-310.pyc
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/__pycache__/subscriber_node.cpython-310.pyc
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/__pycache__/__init__.cpython-310.pyc
+/root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/__pycache__/fibonacci_server.cpython-310.pyc
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg/__pycache__/publisher_node.cpython-310.pyc
 /root/ros_ws/install/demo_action_pkg/share/ament_index/resource_index/packages/demo_action_pkg
 /root/ros_ws/install/demo_action_pkg/share/demo_action_pkg/package.xml
-<<<<<<< HEAD
 /root/ros_ws/install/demo_action_pkg/share/demo_action_pkg/action/Fibonacci.action
-=======
->>>>>>> c575643 (update:项目更新)
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info/PKG-INFO
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info/zip-safe
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -17,5 +18,7 @@
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info/requires.txt
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info/top_level.txt
 /root/ros_ws/install/demo_action_pkg/lib/python3.10/site-packages/demo_action_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+/root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg/fibonacci_client
+/root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg/fibonacci_server
 /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg/listener
 /root/ros_ws/install/demo_action_pkg/lib/demo_action_pkg/talker

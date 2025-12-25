@@ -1,0 +1,4 @@
+[console_scripts]
+listener = demo_action_pkg.subscriber_node:main
+talker = demo_action_pkg.publisher_node:main
+
