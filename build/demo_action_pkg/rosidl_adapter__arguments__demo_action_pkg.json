@@ -1,0 +1,6 @@
+{
+  "package_name": "demo_action_pkg",
+  "non_idl_tuples": [
+    "/root/ros_ws/src/demo_action_pkg:action/Fibonacci.action"
+  ]
+}

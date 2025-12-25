@@ -1,6 +1,0 @@
-[console_scripts]
-fibonacci_client = demo_action_pkg.fibonacci_client:main
-fibonacci_server = demo_action_pkg.fibonacci_server:main
-listener = demo_action_pkg.subscriber_node:main
-talker = demo_action_pkg.publisher_node:main
-
