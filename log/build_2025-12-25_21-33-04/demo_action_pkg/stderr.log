@@ -3,6 +3,6 @@
   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
   package.xml
 Call Stack (most recent call first):
-  CMakeLists.txt:11 (rosidl_generate_interfaces)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
 
 [0m

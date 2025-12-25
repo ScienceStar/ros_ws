@@ -1,2 +1,0 @@
-Invoking command in '/root/ros_ws/build/demo_action_pkg': CMAKE_PREFIX_PATH=/root/ros_ws/install/demo_action_pkg:/opt/ros/humble /usr/bin/cmake /root/ros_ws/src/demo_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/demo_action_pkg
-Invoked command in '/root/ros_ws/build/demo_action_pkg' returned '1': CMAKE_PREFIX_PATH=/root/ros_ws/install/demo_action_pkg:/opt/ros/humble /usr/bin/cmake /root/ros_ws/src/demo_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/demo_action_pkg
