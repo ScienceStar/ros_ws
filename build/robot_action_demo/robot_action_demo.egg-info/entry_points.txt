@@ -1,0 +1,4 @@
+[console_scripts]
+robot_action_client = robot_action_demo.robot_action_client:main
+robot_action_server = robot_action_demo.robot_action_server:main
+

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_action_demo_interfaces/action/MoveRobot.action
+// generated code does not contain a copyright notice
+
+
+module robot_action_demo_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MoveRobot_Goal {
+      float x;
+
+      float y;
+
+      float z;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveRobot_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MoveRobot_Feedback {
+      float current_x;
+
+      float current_y;
+
+      float current_z;
+    };
+  };
+};

@@ -1,0 +1,25 @@
+[0.259s] Invoking command in '/root/ros2_ws/build/robot_action_demo': PYTHONPATH=/root/ros2_ws/build/robot_action_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_action_demo/lib/python3.10/site-packages:/root/ros2_ws/install/robot_action_demo_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/build/robot_action_demo:/root/ros2_ws/install/robot_action_demo/local/lib/python3.10/dist-packages:/root/ros2_ws/install/robot_action_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/robot_action_demo/build --no-deps symlink_data
+[0.361s] running develop
+[0.395s] running egg_info
+[0.395s] creating robot_action_demo.egg-info
+[0.396s] writing robot_action_demo.egg-info/PKG-INFO
+[0.396s] writing dependency_links to robot_action_demo.egg-info/dependency_links.txt
+[0.396s] writing entry points to robot_action_demo.egg-info/entry_points.txt
+[0.396s] writing requirements to robot_action_demo.egg-info/requires.txt
+[0.396s] writing top-level names to robot_action_demo.egg-info/top_level.txt
+[0.396s] writing manifest file 'robot_action_demo.egg-info/SOURCES.txt'
+[0.397s] reading manifest file 'robot_action_demo.egg-info/SOURCES.txt'
+[0.397s] writing manifest file 'robot_action_demo.egg-info/SOURCES.txt'
+[0.398s] running build_ext
+[0.398s] Creating /root/ros2_ws/install/robot_action_demo/lib/python3.10/site-packages/robot-action-demo.egg-link (link to .)
+[0.398s] Installing robot_action_client script to /root/ros2_ws/install/robot_action_demo/lib/robot_action_demo
+[0.398s] Installing robot_action_server script to /root/ros2_ws/install/robot_action_demo/lib/robot_action_demo
+[0.399s] 
+[0.399s] Installed /root/ros2_ws/build/robot_action_demo
+[0.399s] running symlink_data
+[0.399s] creating /root/ros2_ws/install/robot_action_demo/share/ament_index
+[0.399s] creating /root/ros2_ws/install/robot_action_demo/share/ament_index/resource_index
+[0.399s] creating /root/ros2_ws/install/robot_action_demo/share/ament_index/resource_index/packages
+[0.399s] symbolically linking /root/ros2_ws/build/robot_action_demo/resource/robot_action_demo -> /root/ros2_ws/install/robot_action_demo/share/ament_index/resource_index/packages
+[0.399s] symbolically linking /root/ros2_ws/build/robot_action_demo/package.xml -> /root/ros2_ws/install/robot_action_demo/share/robot_action_demo
+[0.414s] Invoked command in '/root/ros2_ws/build/robot_action_demo' returned '0': PYTHONPATH=/root/ros2_ws/build/robot_action_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_action_demo/lib/python3.10/site-packages:/root/ros2_ws/install/robot_action_demo_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/build/robot_action_demo:/root/ros2_ws/install/robot_action_demo/local/lib/python3.10/dist-packages:/root/ros2_ws/install/robot_action_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/robot_action_demo/build --no-deps symlink_data

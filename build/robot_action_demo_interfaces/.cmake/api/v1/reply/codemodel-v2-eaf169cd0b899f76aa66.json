@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0198ac0386a9d555f978.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robot_action_demo_interfaces__py",
+					"jsonFile" : "directory-robot_action_demo_interfaces__py-72a7d3c562d564195b0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros2_ws/build/robot_action_demo_interfaces/robot_action_demo_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robot_action_demo_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_action_demo_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_action_demo_interfaces_egg-e3515ec033173373c200.json",
+					"name" : "ament_cmake_python_build_robot_action_demo_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_action_demo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_action_demo_interfaces-c00832cfa869e8507c90.json",
+					"name" : "ament_cmake_python_copy_robot_action_demo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces-acfa79282b281c115e5b.json",
+					"name" : "robot_action_demo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__cpp-19091440d1a03ef6a001.json",
+					"name" : "robot_action_demo_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_action_demo_interfaces__py::@52d5d6a98577ac281f8b",
+					"jsonFile" : "target-robot_action_demo_interfaces__py-88d78dd71c628bb93b6d.json",
+					"name" : "robot_action_demo_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_generator_c-4c15ae481a698e7fae20.json",
+					"name" : "robot_action_demo_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_generator_py-ef12d640e522cb0d2db0.json",
+					"name" : "robot_action_demo_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_c-78e76e2a7a4a5765eef5.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_c__pyext-77b42c3d7643e0e8a9b0.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_cpp-0432645a256448675877.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_fastrtps_c-12799a3c4b470a07f741.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_fastrtps_c__pyext-de6e247a0553e81d2b0b.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_fastrtps_cpp-cd4b13eac1da8e3466a4.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_introspection_c-20cf97b5056401846c3a.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_introspection_c__pyext-adaecb00c05063863153.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces__rosidl_typesupport_introspection_cpp-65146603caac50a615e3.json",
+					"name" : "robot_action_demo_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_action_demo_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_action_demo_interfaces_uninstall-5c52978e6bf86f07f4d4.json",
+					"name" : "robot_action_demo_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cf3c8da91903dee05609.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/robot_action_demo_interfaces",
+		"source" : "/root/ros2_ws/src/robot_action_demo_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

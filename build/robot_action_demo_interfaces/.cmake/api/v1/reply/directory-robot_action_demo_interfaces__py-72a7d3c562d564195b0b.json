@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_action_demo_interfaces__py",
+		"source" : "/root/ros2_ws/build/robot_action_demo_interfaces/robot_action_demo_interfaces__py"
+	}
+}

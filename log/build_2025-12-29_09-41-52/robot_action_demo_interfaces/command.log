@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/robot_action_demo_interfaces': /usr/bin/cmake /root/ros2_ws/src/robot_action_demo_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/robot_action_demo_interfaces
+Invoked command in '/root/ros2_ws/build/robot_action_demo_interfaces' returned '0': /usr/bin/cmake /root/ros2_ws/src/robot_action_demo_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/robot_action_demo_interfaces
+Invoking command in '/root/ros2_ws/build/robot_action_demo_interfaces': /usr/bin/cmake --build /root/ros2_ws/build/robot_action_demo_interfaces -- -j12 -l12
+Invoked command in '/root/ros2_ws/build/robot_action_demo_interfaces' returned '0': /usr/bin/cmake --build /root/ros2_ws/build/robot_action_demo_interfaces -- -j12 -l12
+Invoking command in '/root/ros2_ws/build/robot_action_demo_interfaces': /usr/bin/cmake --install /root/ros2_ws/build/robot_action_demo_interfaces
+Invoked command in '/root/ros2_ws/build/robot_action_demo_interfaces' returned '0': /usr/bin/cmake --install /root/ros2_ws/build/robot_action_demo_interfaces
