@@ -34,7 +34,6 @@ class MoveRobotActionServer(Node):
         # 这里不调用 goal_handle.succeed()，永不结束
         return None
 
-
 def main():
     rclpy.init()
     node = MoveRobotActionServer()
