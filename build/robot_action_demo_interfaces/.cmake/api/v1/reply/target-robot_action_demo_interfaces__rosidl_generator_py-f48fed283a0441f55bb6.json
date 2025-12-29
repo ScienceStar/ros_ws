@@ -256,16 +256,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 13,
-			"id" : "robot_action_demo_interfaces__py::@52d5d6a98577ac281f8b"
-		},
-		{
 			"backtrace" : 12,
 			"id" : "robot_action_demo_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 13,
 			"id" : "robot_action_demo_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "robot_action_demo_interfaces__py::@52d5d6a98577ac281f8b"
 		}
 	],
 	"id" : "robot_action_demo_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",

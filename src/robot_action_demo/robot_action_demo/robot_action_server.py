@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer
 from robot_action_demo_interfaces.action import MoveRobot
+import time
 
 class MoveRobotActionServer(Node):
 
@@ -16,10 +17,22 @@ class MoveRobotActionServer(Node):
 
     def execute_callback(self, goal_handle):
         self.get_logger().info(f'Received goal: {goal_handle.request.x}, {goal_handle.request.y}, {goal_handle.request.z}')
-        goal_handle.succeed()
-        result = MoveRobot.Result()
-        result.success = True
-        return result
+        feedback = MoveRobot.Feedback()
+
+        try:
+            while rclpy.ok():
+                # 每秒发送一次反馈
+                feedback.current_x = goal_handle.request.x
+                feedback.current_y = goal_handle.request.y
+                feedback.current_z = goal_handle.request.z
+                goal_handle.publish_feedback(feedback)
+                self.get_logger().info(f'Feedback: {feedback.current_x}, {feedback.current_y}, {feedback.current_z}')
+                time.sleep(1)
+        except KeyboardInterrupt:
+            pass
+
+        # 这里不调用 goal_handle.succeed()，永不结束
+        return None
 
 def main():
     rclpy.init()
